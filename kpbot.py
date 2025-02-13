@@ -7,7 +7,7 @@ import requests
 import io  # For in-memory file handling
 
 recognizer = sr.Recognizer()
-mic_index = 0  # Change this if needed
+mic_index = 0
 
 while True:
     command = input("Type 'listen' to start recording or 'exit' to exit: ").strip().lower()
@@ -39,8 +39,8 @@ while True:
 
                     if response.status_code == 200:
                         result = response.json()
-                        transcript = result.get("transcript", "")  # Extract only transcript
-                        print("\n🎙️ **Transcribed Text:**", transcript)  # Print transcript directly
+                        transcript = result.get("transcript", "") 
+                        print("Transcribed Text:", transcript)
                     else:
                         print("Error:", response.text)
 
