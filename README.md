@@ -51,13 +51,13 @@ Once the transcription is received, the system uses spaCy for further analysis. 
 These predefined locations help in understanding the navigation path in the spoken command.
 If any of these locations are mentioned in the transcribed text, they are extracted and stored in a list.
 <br><br>
-<b>Key Features</b>
-✅ Real-Time Speech Recognition<br>
-✅ Hands-Free Operation<br>
-✅ API-Based Speech Transcription<br>
-✅ NLP-Based Location Extraction<br>
+<b>Key Features</b><br>
+-Real-Time Speech Recognition<br>
+-Hands-Free Operation<br>
+-API-Based Speech Transcription<br>
+-NLP-Based Location Extraction<br>
 spaCy’s PhraseMatcher is used to detect location-related keywords from the command.
-Helps in robotic navigation and command processing.
+Helps in robotic navigation and command processing.<br><br>
 <b>Conclusion</b><br>
 This project successfully integrates speech recognition, API-based transcription, and NLP processing to create an efficient real-time voice command system. The ability to extract location-based information makes it a valuable tool for various applications, including robotics and automation.
 <br><br>
